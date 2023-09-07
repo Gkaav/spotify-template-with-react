@@ -1,0 +1,29 @@
+.threeDots {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 40px;
+    top: 20px;
+}
+
+.threeDots::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+}
+
+.threeDots::after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+}

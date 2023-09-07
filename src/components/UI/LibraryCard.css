@@ -1,0 +1,42 @@
+.libraryCard {
+    width: 200px;
+    height: 60px;
+    border-radius: 7px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: default;
+}
+
+.libraryItems {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+.libraryItems img{
+    width: 30px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.libraryItems img:hover{
+    fill: #f9f3e2;
+}
+
+.libraryText {
+    display: flex;
+    justify-content: center;
+    color: #b1b1b1;
+    margin-top: 16px;
+    margin-left: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.libraryText:hover{
+    color: #f9f3e2;
+}

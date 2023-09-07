@@ -1,0 +1,14 @@
+.Libraryimage {
+    width: 400px;
+    height: 400px;
+
+}
+
+.Libraryimage {
+    width: 380px;
+    height: 380px;
+    background: url(/src/assets/song-cover.jpeg);
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    margin-top: 30px;
+}
